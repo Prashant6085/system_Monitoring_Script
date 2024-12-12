@@ -1,4 +1,4 @@
-# system_Monitoring_Script
+# System_Monitoring_Script
 
 This Bash script, (monitor_system.sh), monitors system performance and generates reports with real-time alerts. It tracks CPU usage, memory usage, disk space, and the top 5 CPU-consuming processes. Users can customize the monitoring interval (--interval) and output format (--format, options: text, JSON, CSV). Alerts are triggered if CPU usage exceeds 80%, memory usage exceeds 75%, or disk usage exceeds 90%. The script ensures robust error handling for invalid inputs and generates reports in the specified format for easy review.
 
